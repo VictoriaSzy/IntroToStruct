@@ -1,5 +1,14 @@
 #include "headers.h"
 
+char names[20][10] = { "Johnny", "Loula", "Jackie", "Kathy", "Luis", "Luke", "Francine",
+                      "Timothy", "Avocado", "Will", "Daisy", "Wilson", "Eddie", "Abigail",
+                      "Macy", "Katie", "Willow", "Sandy", "CoolPerson", "Evangelina" } ;
+
+struct cow {
+  char name[11] ;
+  int numberOfFriends ;
+} ;
+
 struct cow getRandomCow() {
   srand(time(NULL)) ;
   char s[11] ;

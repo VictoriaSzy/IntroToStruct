@@ -3,8 +3,7 @@
 #include <time.h>
 
 struct cow { char *name ; int numberOfFriends ;} ;
-char *makeName() ;
 struct cow getRandomCow() ;
 void display(struct cow c) ;
-void changeName(struct cow c, char newName) ;
-void changeNumberOfFriends(struct cow c, int newQuantity) ;
+void changeName(struct cow * c, char* newName) ;
+void changeNumberOfFriends(struct cow * c, int newQuantity) ;

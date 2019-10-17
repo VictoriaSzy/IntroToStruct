@@ -6,3 +6,6 @@ functions.o: functions.c headers.h
 	gcc -c functions.c
 run:
 	/.program
+clean:
+	rm *.o
+	rm *~

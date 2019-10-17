@@ -1,11 +1,19 @@
 #include "headers.h"
 
 int main() {
-  int x ;
-  for (x = 0 ; x < 8 ; x++) {
-    struct cow a = getRandomCow() ;
-    display(a) ;
-  }
+  struct cow a = getRandomCow() ;
+  printf("\n") ;
+  display(a) ;
+  printf("\nLet's change the cow's name to Yoda!\n") ;
+  struct cow * p = &a ;
+  changeName(p, "Yoda") ;
+  printf("------------------------------------------------\nHere is updated information about the cow!\n------------------------------------------------\n") ;
+  display(a) ;
+  printf("\nLet's change how many friends your cow has! How about 1000000000 friends?\n") ;
+  changeNumberOfFriends(p, 1000000000) ;
+  printf("------------------------------------------------\nHere is updated information about the cow!\n------------------------------------------------\n") ;
+  display(a) ;
+  printf("Wow, this cow is very social! Look at how many friends they have!") ;
   printf("********************************************************\n") ;
   printf("Here is a cow. What do you think it's name is?\n") ;
   printf("                                       /;    ;\\ \n") ;

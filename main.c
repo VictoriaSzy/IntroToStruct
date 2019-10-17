@@ -13,9 +13,9 @@ int main() {
   changeNumberOfFriends(p, 1000000000) ;
   printf("------------------------------------------------\nHere is updated information about the cow!\n------------------------------------------------\n") ;
   display(a) ;
-  printf("Wow, this cow is very social! Look at how many friends they have!") ;
+  printf("\nWow, this cow is very social! Look at how many friends they have!\n") ;
   printf("********************************************************\n") ;
-  printf("Here is a cow. What do you think it's name is?\n") ;
+  printf("Here is a cow. What do you think its name is?\n") ;
   printf("                                       /;    ;\\ \n") ;
   printf("                                   __  \\\\____//\n") ;
   printf("                                  /{_\\_/   `'\\____\n") ;
@@ -34,6 +34,6 @@ int main() {
   printf("    )_ \\__;      \";\"          :_ ;  \\_\\       \`,\',\'\n") ;
   printf("    :__\\  \\    * \`,\'*         \\  \\  :  \\   *  8\`;\'*  *\n") ;
   printf("        \`^\'     \\ :/           \`^\'  \`-^-\'   \\v/ :  \\/ \n") ;
-  printf("Created by Bill Ames") ;
+  printf("Created by Bill Ames\n") ;
   return 0 ;
 }
